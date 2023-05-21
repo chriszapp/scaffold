@@ -11,5 +11,4 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 	
-all: 
-	format lint test
+all: format lint test
